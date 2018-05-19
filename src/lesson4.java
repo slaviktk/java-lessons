@@ -10,8 +10,9 @@ public class lesson4 {
         boolean e=true;
         System.out.println((b/c)/a);
         System.out.println(e);
-
-
+        int x=2, y=3;
+        System.out.println( Math.pow(x, y));
+        System.out.println ( Math.sqrt(121));
 
     }
 }
