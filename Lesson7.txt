@@ -1,0 +1,57 @@
+public class Lesson7 {
+    public static void main(String[] args){
+        try (Scanner sc = new Scanner(System.in)){
+            System.out.println("Напишите свой возвраст:");
+            double a = sc.nextDouble();
+            System.out.println("Напишите свой рост:");
+            double b = sc.nextDouble();
+            System.out.println("Напишите свое имя:");
+            String c = sc.next();
+            System.out.println("возвраст=" + a);
+            System.out.println("рост=" + b);
+            System.out.println("имя=" + c);
+        }
+    }
+    public static boolean func (double A){
+        return A > 1000;
+    }
+
+
+}
+
+public class Lesson7 {
+    public static void main(String[] args) {
+        try (Scanner sc = new Scanner(System.in)) {
+           //1.
+            System.out.println("Введите число А:");
+            double a = sc.nextDouble();
+            System.out.println("Введите число B:");
+            double b = sc.nextDouble();
+            System.out.println("Введите число C:");
+            int c = sc.nextInt();
+            System.out.println("A=" + a);
+            System.out.println("B=" + b);
+            System.out.println("C=" + c);
+
+            if (c > 1) {
+                System.out.println(a + b);
+            }
+            else  if (c==1){
+                System.out.println(a - b);
+            }
+            else if (c==0) {
+                System.out.println(a * b);
+            }
+            else   {
+                System.out.println(a / b);
+            }
+
+        }
+    }
+
+    public static boolean func(double A) {
+        return A > 1000;
+    }
+
+
+}
